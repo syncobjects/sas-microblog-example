@@ -3,9 +3,9 @@
 	<classpathentry kind="src" path="src/main"/>
 	<classpathentry kind="src" path="src/test"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="/opt/sync/sync-as/lib/as-api.jar"/>
-	<classpathentry kind="lib" path="/opt/sync/sync-as/lib/hamcrest-core-1.3.jar"/>
-	<classpathentry kind="lib" path="/opt/sync/sync-as/lib/junit-4.11.jar"/>
 	<classpathentry kind="lib" path="lib/mongo-java-driver-3.2.2.jar" sourcepath="lib/mongo-java-driver-3.2.2-sources.jar"/>
+	<classpathentry kind="lib" path="/opt/sync/lib/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="/opt/sync/lib/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="/opt/sync/lib/sync-api.jar"/>
 	<classpathentry kind="output" path="classes"/>
 </classpath>

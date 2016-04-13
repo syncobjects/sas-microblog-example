@@ -6,9 +6,9 @@ import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runners.MethodSorters;
 
-import com.syncobjects.as.api.RenderResult;
-import com.syncobjects.as.api.Result;
-import com.syncobjects.as.api.SessionContext;
+import io.syncframework.api.RenderResult;
+import io.syncframework.api.Result;
+import io.syncframework.api.SessionContext;
 
 import microblog.models.User;
 
