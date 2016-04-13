@@ -2,8 +2,8 @@ package microblog.startup;
 
 import java.util.Properties;
 
-import com.syncobjects.as.api.ApplicationContext;
-import com.syncobjects.as.api.Initializer;
+import io.syncframework.api.ApplicationContext;
+import io.syncframework.api.Initializer;
 
 import microblog.services.ServiceFactory;
 import microblog.services.mongodb.ServiceFactoryImpl;

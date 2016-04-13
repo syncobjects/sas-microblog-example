@@ -2,14 +2,14 @@ package microblog.controllers;
 
 import java.util.Date;
 
-import com.syncobjects.as.api.Action;
-import com.syncobjects.as.api.ApplicationContext;
-import com.syncobjects.as.api.Controller;
-import com.syncobjects.as.api.ErrorContext;
-import com.syncobjects.as.api.Parameter;
-import com.syncobjects.as.api.Result;
-import com.syncobjects.as.api.ResultFactory;
-import com.syncobjects.as.api.SessionContext;
+import io.syncframework.api.Action;
+import io.syncframework.api.ApplicationContext;
+import io.syncframework.api.Controller;
+import io.syncframework.api.ErrorContext;
+import io.syncframework.api.Parameter;
+import io.syncframework.api.Result;
+import io.syncframework.api.ResultFactory;
+import io.syncframework.api.SessionContext;
 
 import microblog.models.Post;
 import microblog.models.User;

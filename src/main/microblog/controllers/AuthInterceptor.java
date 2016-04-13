@@ -1,9 +1,9 @@
 package microblog.controllers;
 
-import com.syncobjects.as.api.Interceptor;
-import com.syncobjects.as.api.Result;
-import com.syncobjects.as.api.ResultFactory;
-import com.syncobjects.as.api.SessionContext;
+import io.syncframework.api.Interceptor;
+import io.syncframework.api.Result;
+import io.syncframework.api.ResultFactory;
+import io.syncframework.api.SessionContext;
 
 @Interceptor
 public class AuthInterceptor {

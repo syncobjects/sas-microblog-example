@@ -7,14 +7,14 @@ import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runners.MethodSorters;
 
-import com.syncobjects.as.api.ApplicationContext;
-import com.syncobjects.as.api.ApplicationContextMock;
-import com.syncobjects.as.api.ErrorContext;
-import com.syncobjects.as.api.RedirectResult;
-import com.syncobjects.as.api.RenderResult;
-import com.syncobjects.as.api.RequestContext;
-import com.syncobjects.as.api.Result;
-import com.syncobjects.as.api.SessionContext;
+import io.syncframework.api.ApplicationContext;
+import io.syncframework.api.ApplicationContextMock;
+import io.syncframework.api.ErrorContext;
+import io.syncframework.api.RedirectResult;
+import io.syncframework.api.RenderResult;
+import io.syncframework.api.RequestContext;
+import io.syncframework.api.Result;
+import io.syncframework.api.SessionContext;
 
 import microblog.models.User;
 import microblog.startup.ServiceInitializer;
